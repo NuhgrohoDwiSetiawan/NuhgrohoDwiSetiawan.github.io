@@ -1,0 +1,97 @@
+* {margin:0}
+
+body{
+  margin: 0;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-image: url(gambar/latarcokelat.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  
+}
+  
+.wrap {
+            width:1000px;         
+            margin:0 auto;
+
+} 
+             
+.header {
+            width:auto;
+            background: transparent;
+            padding:70px;
+            color:#black;
+            background-image: url(gambar/hg.jpg);
+            background-repeat: no-repeat;
+}
+
+
+    .clear {
+        clear:both}   
+     
+.nav {
+            width:auto;
+            background: #7FFF00; 
+            padding:10px 20px;
+            color:#black;
+
+}
+nav li{
+        display: inline;
+        margin-right: 50px;
+  }
+
+nav li :hover{
+    background-color: #black; ;
+    font color: #black;
+    width : 50%;
+  }
+  
+.main {
+            width:100%;
+            background: transparent;
+}
+  
+.content {
+            float:left;
+            width:66%;
+            background: #F5FFFA;
+            padding:2%; 
+            min-height:400px;
+}
+  
+.sidebar {
+            float:right;
+            width:26%;
+            background: transparent;
+            padding:2%;  
+} 
+
+
+
+aside section a {
+        display: block;
+        color: #7FFF00;
+        padding: 10px;
+        border-bottom: 1px solid ;
+    } 
+
+
+.icon :hover{
+    width: 30%;
+    color: #0000FF;
+
+
+}     
+  
+.clear {clear:both}
+  
+.footer {
+            width:auto;
+            height:auto;
+            padding:5px 10px;
+            background:#ADFF2F;
+            color:#black;
+  
+}
